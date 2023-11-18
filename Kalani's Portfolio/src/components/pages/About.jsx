@@ -3,14 +3,14 @@ import profileImage from '../../assets/kalaniHeadshot.jpg';
 function About() {
     return (
 <section id="about-me" className="my-5 intro">
-      <div class="flex-row">
+      <div className="flex-row">
         <h1 id="about" className="section-title primary-border">
           About Me
         </h1>
       </div>
       <div className="flex-row">
-        <div class="intro-info">
-          <div class="intro-img">
+        <div className="intro-info">
+          <div className="intro-img">
             <img src={profileImage} style={{ width: "100%" }} alt="profile" />
           </div>
           <p>
@@ -22,7 +22,7 @@ function About() {
         </div>
       </div>
     </section>
-    );
+    )
 }
 
 export default About;

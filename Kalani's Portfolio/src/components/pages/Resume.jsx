@@ -2,9 +2,9 @@ import React from 'react';
 import myResume from "../../assets/myResume.pdf";
 
 import { BsCloudDownload } from "react-icons/bs";
-import { MdFoundation } from "react-icons/md";
-import { GrTechnology } from "react-icons/gr";
-import { GrDocumentPerformance } from "react-icons/gr";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Resume() {
   return (
@@ -28,14 +28,13 @@ function Resume() {
         </div>
       </section>
       {/* // This is the resume language */}
-      <section id="home-page-body" className="resume-body">
-        <div className="article column1">
+      <Container id="home-page-body" className="resume-body">
+        <Row>
+        <Col className="article column1">
           <p className="column-title">Font-End Tech</p>
           <p className="column-text">
             <ul>
-              <li className="logo">
-                <MdFoundation />
-              </li>
+            
               <li>HTML5</li>
               <li>CSS</li>
               <li>JavaScript</li>
@@ -44,16 +43,11 @@ function Resume() {
               <li>GIT</li>
             </ul>
           </p>
-        </div>
+        </Col>
 
-        <div className="article column2">
-
+        <Col className="article column2">
           <p className="column-title">Back-End Tech</p>
-          <p className="column-text">
             <ul>
-              <li className="logo">
-                <GrTechnology />
-              </li>
               <li>Node.Js</li>
               <li>Jest</li>
               <li>Express.js</li>
@@ -61,16 +55,11 @@ function Resume() {
               <li>Sequelize</li>
               <li>Object-Relational Mapping(ORM)</li>
               <li>Model-View-Controller (MVC)</li>
-            </ul>
-          </p>
-        </div>
-        <div className="article column3">
+            </ul> 
+        </Col>
+        <Col className="article column3">
           <p className="column-title">Performance Tech</p>
-          <p className="column-text">
             <ul>
-              <li className="logo">
-                <GrDocumentPerformance />
-              </li>
               <li>NoSQL</li>
               <li>Progressive Web Applications (PWA)</li>
               <li>MongoDB</li>
@@ -80,9 +69,9 @@ function Resume() {
               <li>MERN</li>
               <li>State</li>
             </ul>
-          </p>
-        </div>
-      </section>
+        </Col >
+        </Row>
+      </Container>
     </div>
   );
 }

@@ -1,32 +1,33 @@
 import React from "react";
 import { VscGithubAlt } from "react-icons/vsc";
-import { AiOutlineLinkedin } from "react-icons/ai";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaLink } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Footer() {
   return (
-    <footer>
+    <Container >
       <h2>Made by Kalani Jones</h2>
-      <p>
-        <ul>
+      <Row>
+            <Col className="logo">
           <a href="https://github.com/kalaniJ94">
-            <li className="logo">
               <VscGithubAlt />
-            </li>
           </a>
+            </Col>
+            <Col className="logo">
           <a href="https://www.linkedin.com/in/kalanijones/">
-            <li className="logo">
-              <AiOutlineLinkedin />
-            </li>
+              <FaLinkedin/>
           </a>
+            </Col>
+            <Col className="logo">
           <a href="https://www.instagram.com/kjones_in_co/">
-            <li className="logo">
               <FaInstagram />
-            </li>
           </a>
-        </ul>
-      </p>
-    </footer>
+            </Col>
+      </Row>
+    </Container>
   );
 }
 

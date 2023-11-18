@@ -1,12 +1,15 @@
 import React from "react";
 import placeholder from '../../assets/placeholder.jpg';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+
 
 function Projects() {
     return (
       <div>
         <section id="work" className="jobs">
           <div className="flex-row">
-            <h2 className="section-title secondary-border">Work</h2>
+            <h2 className="section-title secondary-border">My Projects and showcased Work.</h2>
           </div>
   
           <div className="job">
@@ -59,7 +62,7 @@ function Projects() {
                 <a href="#">
                   {" "}
                   <img
-                    src={twilightImage}
+                    src={placeholder}
                     className="my-2"
                     style={{ width: "100%" }}
                     alt="Placeholder"
@@ -103,7 +106,7 @@ function Projects() {
                 <a href="#">
                   {" "}
                   <img
-                    src={weatherDashImage}
+                    src={placeholder}
                     className="my-2"
                     style={{ width: "100%" }}
                     alt="Placeholder"
