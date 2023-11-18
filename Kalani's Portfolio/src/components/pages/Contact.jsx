@@ -1,3 +1,6 @@
+import React from "react";
+
+
 function Form() {
     // Create state variables for the fields in the form
     // We are also setting their initial values to an empty string
@@ -21,9 +24,8 @@ function Form() {
         setPassword(inputValue);
       }
     };
-}
-
-return (
+    
+    return (
     <div className="container text-center">
       <h1>Sumbit a message for me! {userName}</h1>
       <form className="form" onSubmit={handleFormSubmit}>
@@ -33,21 +35,21 @@ return (
           onChange={handleInputChange}
           type="email"
           placeholder="email"
-        />
+          />
         <input
-          value={}
+          value={userName}
           name="userName"
           onChange={handleInputChange}
           type="text"
           placeholder="username"
-        />
+          />
         <input
           value={password}
           name="password"
           onChange={handleInputChange}
           type="password"
           placeholder="Password"
-        />
+          />
         <button type="submit">Submit</button>
       </form>
       {errorMessage && (
@@ -57,3 +59,6 @@ return (
       )}
     </div>
   );
+}
+
+export default Form;

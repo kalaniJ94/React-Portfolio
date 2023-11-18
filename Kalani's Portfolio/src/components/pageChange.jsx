@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import Nav from './Nav';
-import About from './pages./About';
+import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
@@ -26,6 +26,7 @@ export default function pageNavigate(){
         <div>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
             <main className="mx-3">{renderPage()}</main>
+            
         </div>
     );
 }
