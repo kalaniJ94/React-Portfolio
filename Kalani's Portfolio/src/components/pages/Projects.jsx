@@ -1,7 +1,15 @@
 import React from "react";
+
+import Dropdown from 'react-bootstrap/Dropdown';
+
 import placeholder from '../../assets/placeholder.jpg';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import  projectMars  from "../../assets/projectMars.png";
+import projectHyperdrive from "../../assets/projectHyperdrive.png";
+import space from "../../assets/space.jpg";
+import lambeauField from "../../assets/lambeauField.jpg";
+import kdsImage from "../../assets/kdsImage.jpg";
+import codingStockImage from "../../assets/codingStockImage.avif";
+
 
 
 function Projects() {
@@ -15,20 +23,110 @@ function Projects() {
           <div className="job">
             <div className="job-info">
               <div className="job-img">
-                <a href="#">
+                <a href="https://kalanij94.github.io/Project-Mars/index.html">
                   {" "}
                   <img
-                    src={placeholder}
+                    src={projectMars}
                     className="my-2"
-                    style={{ width: "100%" }}
-                    alt="placeholder"
+                    style={{ width: "75%" }}
+                    alt="Project-Mars"
                   />
                 </a>
               </div>
               <div className="job-text">
-                <h4>Placeholder</h4>
+                <h4>Project Mars</h4>
                 <p>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aut quibusdam consequatur quisquam eius suscipit, reprehenderit placeat. Quae fugit possimus esse. Ducimus nemo magnam dolore eum enim consequuntur ipsum quo.
+                 My first project, done through the University of Denver Full-Stack Web Devolpment Bootcamp, utilizes two different third-party web APIs to display real data about planets in our solar system, and directly comparing them to Earth. This project was a ton of fun, and I am extremely proud of the work done within. I served as project lead, and with my two great project partners, produced an exceptional product. 
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div className="job">
+            <div className="job-info">
+              <div className="job-img">
+                <a href="https://github.com/kalaniJ94/Project_Hyperdrive">
+                  {" "}
+                  <img
+                    src={projectHyperdrive}
+                    className="my-2"
+                    style={{ width: "75%" }}
+                    alt="Project Hyperdrive"
+                  />
+                </a>
+              </div>
+              <div className="job-text">
+                <h4>Project Hyperdrive</h4>
+                <p>
+                  My second project, done through the Bootcamp, is Project Hyperdrive, an interactive educational tool aimed at helping people learn about real exoplanets in our galaxy, using a fun 'game' system to let users travel virtually through hyperspace. As project lead and as a member of five devolpers who worked passionatly on this Project, we are extremly proud of the finished product. 
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div className="job">
+            <div className="job-info">
+              <div className="job-img">
+                <a href="https://github.com/kalaniJ94/Celestrial_Voyages">
+                  {" "}
+                  <img
+                    src={space}
+                    className="my-2"
+                    style={{ width: "75%" }}
+                    alt="Space"
+                  />
+                </a>
+              </div>
+              <div className="job-text">
+                <h4>Celestrial Voyages - WIP</h4>
+                <p>
+                 My upcoming third and final Bootcamp Project, Celestrial Voyages aims to be a fully functioning mock "travel agency" concept, while still delivering on the space concept that y partners and I have stuck with thoughout our Bootcamp experience. I look forward to delivering again on the high expectations we have of ourselves to deliver a polished and fun experience for users. 
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div className="job">
+            <div className="job-info">
+              <div className="job-img">
+                <a href="https://github.com/kalaniJ94/Packers-Practice-Site">
+                  {" "}
+                  <img
+                    src={lambeauField}
+                    className="my-2"
+                    style={{ width: "75%" }}
+                    alt="Lambeau Field"
+                  />
+                </a>
+              </div>
+              <div className="job-text">
+                <h4>Packers Roster/Stats Tracker - WIP</h4>
+                <p>
+                 A personal practice Website, aimed at keeping track of the players, and stats, of the Green Bay Packers. While this site is, currently, very much a work in progress, I look forward to it's completed state for use, both by myself and others!
+                </p>
+              </div>
+            </div>
+          </div>
+  
+         
+  
+          <div className="job">
+            <div className="job-info">
+              <div className="job-img">
+                <a href="#">
+                  {" "}
+                  <img
+                    src={kdsImage}
+                    className="my-2"
+                    style={{ width: "75%" }}
+                    alt="KDS Project"
+                  />
+                </a>
+              </div>
+              <div className="job-text">
+                <h4>Kitchen Display System Backend Project - Coming Soon!</h4>
+                <p>
+                 A Kitchen Display System, or KDS, is a complicated database/routing system that keeps track of customer orders, time, inventory, modifications, and so much more. I look forward to working on this project to improve and develop my skills in these areas. 
                 </p>
               </div>
             </div>
@@ -40,128 +138,49 @@ function Projects() {
                 <a href="#">
                   {" "}
                   <img
-                    src={placeholder}
+                    src={codingStockImage}
                     className="my-2"
-                    style={{ width: "100%" }}
-                    alt="Placeholder"
+                    style={{ width: "75%" }}
+                    alt="Coding Stock Image"
                   />
                 </a>
               </div>
               <div className="job-text">
-                <h4>Placeholder</h4>
+                <h4>Coding Bootcamp Challenges</h4>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint doloribus sunt consequuntur sed minima, ullam magnam nihil, odio recusandae, corrupti quo tempora doloremque quibusdam! Perspiciatis, sequi. Voluptate, quod. Illo, amet.
+                 During my time in coding bootcamp, we had the opprotunity to work on weekly "challenges" that tested and grew our skills. Please feel free to look through my code in these areas, covering everything from basic HTML and CSS, to MERN stacks and mySQL! 
                 </p>
-              </div>
-            </div>
-          </div>
-  
-          <div className="job">
-            <div className="job-info">
-              <div className="job-img">
-                <a href="#">
-                  {" "}
-                  <img
-                    src={placeholder}
-                    className="my-2"
-                    style={{ width: "100%" }}
-                    alt="Placeholder"
-                  />
-                </a>
-              </div>
-              <div className="job-text">
-                <h4>Placeholder</h4>
-                <p>
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, necessitatibus! Ducimus quidem possimus quam nemo hic id expedita corrupti? Quam deserunt illum incidunt totam. At magni perspiciatis eos illo sapiente.
-                </p>
-              </div>
-            </div>
-          </div>
-  
-          <div className="job">
-            <div className="job-info">
-              <div className="job-img">
-                <a href="#">
-                  {" "}
-                  <img
-                    src={placeholder}
-                    className="my-2"
-                    style={{ width: "100%" }}
-                    alt="Placeholder"
-                  />
-                </a>
-              </div>
-              <div className="job-text">
-                <h4>Placeholder</h4>
-                <p>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi soluta autem hic nostrum omnis atque numquam quasi deleniti odit non fugiat molestias eligendi, mollitia nesciunt, possimus laborum perferendis ratione ducimus!
-                </p>
-              </div>
-            </div>
-          </div>
-  
-          <div className="job">
-            <div className="job-info">
-              <div className="job-img">
-                <a href="#">
-                  {" "}
-                  <img
-                    src={placeholder}
-                    className="my-2"
-                    style={{ width: "100%" }}
-                    alt="Placeholder"
-                  />
-                </a>
-              </div>
-              <div className="job-text">
-                <h4>Placeholder</h4>
-                <p>
-                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione dolor at accusamus, fugiat optio magni obcaecati provident repellendus laboriosam quod unde reiciendis iusto officia fugit nesciunt corporis nobis. Corporis, porro.
-                </p>
-              </div>
-            </div>
-          </div>
-  
-          <div className="job">
-            <div className="job-info">
-              <div className="job-img">
-                <a href="#">
-                  {" "}
-                  <img
-                    src={placeholder}
-                    className="my-2"
-                    style={{ width: "100%" }}
-                    alt="SummerPunch"
-                  />
-                </a>
-              </div>
-              <div className="job-text">
-                <h4>Placeholder</h4>
-                <p>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi inventore nobis, temporibus earum quos. Vero, alias, velit molestias omnis a iure dolorum voluptatum earum sapiente, reprehenderit similique eveniet voluptates.
-                </p>
-              </div>
-            </div>
-          </div>
-  
-          <div className="job">
-            <div className="job-info">
-              <div className="job-img">
-                <a href="#">
-                  {" "}
-                  <img
-                    src={placeholder}
-                    className="my-2"
-                    style={{ width: "100%" }}
-                    alt="Placeholder"
-                  />
-                </a>
-              </div>
-              <div className="job-text">
-                <h4>Placeholder</h4>
-                <p>
-                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit ullam rerum pariatur esse eum ducimus nisi voluptatem enim? Tenetur suscipit eligendi veritatis animi obcaecati eaque repellendus necessitatibus doloremque neque? Nesciunt.
-                </p>
+                <Dropdown>
+      <Dropdown.Toggle 
+      variant="success" 
+      id="dropdown-basic"
+      bsStyle="default"
+        bsSize="medium"
+        style={{ maxHeight: "200px" }}
+        title={"Qty"}
+        key={1}
+       
+      >
+        Bootcamp Challenges
+      </Dropdown.Toggle>
+
+      <Dropdown.Menu>
+        <Dropdown.Item href="https://github.com/kalaniJ94/week1-refactor-seo">HTML - Refactor - SEO</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/kalaniJ94/Personal-Portfolio">CSS</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/kalaniJ94/Password-Generator">Intro to Javascript</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/kalaniJ94/Practice-Quiz">Web APIs</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/kalaniJ94/Simple-Calendar">Third Party APIS</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/kalaniJ94/Weather-App">Server Side APIs</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/kalaniJ94/Readme_Generator">Node JS</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/kalaniJ94/Logo-Generator">OOP</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/kalaniJ94/Note_Taker">Express JS</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/kalaniJ94/Employee_Tracker">SQL</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/kalaniJ94/E-Commerce-BackEnd">Object Relational Mapping</Dropdown.Item>
+        <Dropdown.Item href="https://gist.github.com/kalaniJ94/283fba2e355e2fe7356dbf53eae22035">Computer Science</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/kalaniJ94/Text-Editor">Progressive Web Applications</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/kalaniJ94/React-Portfolio">React</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
               </div>
             </div>
           </div>

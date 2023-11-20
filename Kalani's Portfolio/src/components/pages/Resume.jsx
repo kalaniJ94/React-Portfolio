@@ -20,8 +20,7 @@ function Resume() {
                 <BsCloudDownload />
               </a>
               <h4 id='dev-text'className='mb-8'>
-                Please feel free to check out my list of Developer
-                Proficiencies!
+                Proficencies
               </h4>
             </div>
           </div>

@@ -9,7 +9,14 @@
   padding: 2rem;
   text-align: center;
 }
+.dropdown-menu {
+  height: 200px;
+  overflow-y: scroll;
+}
+.btn-success{
+  --bs-btn-bg:var(--box)
 
+}
 
 .logo {
   height: 10em;
