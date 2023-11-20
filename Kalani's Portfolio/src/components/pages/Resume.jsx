@@ -1,6 +1,5 @@
 import React from 'react';
 import myResume from "../../assets/myResume.pdf";
-
 import { BsCloudDownload } from "react-icons/bs";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -9,9 +8,10 @@ import Col from 'react-bootstrap/Col';
 function Resume() {
   return (
     <div>
-      <section id="welcome-section" className="download-intro">
+      <section id="resume-intro" >
         <div className="flex-row">
-          <h2 className="section-title primary-border">My Resume</h2>
+          <h2 className="">My Resume</h2>
+          <h4>Click here to download</h4>
         </div>
         <div className="flex-row">
           <div className="download-info">
@@ -19,19 +19,18 @@ function Resume() {
               <a href={myResume} className="download-logo" download>
                 <BsCloudDownload />
               </a>
-              <p>
+              <h4 id='dev-text'className='mb-8'>
                 Please feel free to check out my list of Developer
                 Proficiencies!
-              </p>
+              </h4>
             </div>
           </div>
         </div>
       </section>
-      {/* // This is the resume language */}
-      <Container id="home-page-body" className="resume-body">
+      <Container id="dev-body" className="resume-body">
         <Row>
         <Col className="article column1">
-          <p className="column-title">Font-End Tech</p>
+          <h5 className="column-title">Font-End Tech</h5>
           <p className="column-text">
             <ul>
             
@@ -40,13 +39,16 @@ function Resume() {
               <li>JavaScript</li>
               <li>APIs</li>
               <li>Bootstrap</li>
+              <li>React Bootstrap</li>
+              <li>Tailwind</li>
+              <li>SASS</li>
               <li>GIT</li>
             </ul>
           </p>
         </Col>
 
         <Col className="article column2">
-          <p className="column-title">Back-End Tech</p>
+          <h5 className="column-title">Back-End Tech</h5>
             <ul>
               <li>Node.Js</li>
               <li>Jest</li>
@@ -58,7 +60,7 @@ function Resume() {
             </ul> 
         </Col>
         <Col className="article column3">
-          <p className="column-title">Performance Tech</p>
+          <h5 className="column-title">Performance Tech</h5>
             <ul>
               <li>NoSQL</li>
               <li>Progressive Web Applications (PWA)</li>

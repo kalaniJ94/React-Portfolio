@@ -9,7 +9,7 @@ function Projects() {
       <div>
         <section id="work" className="jobs">
           <div className="flex-row">
-            <h2 className="section-title secondary-border">My Projects and showcased Work.</h2>
+            <h2 className=" mt-5 section-title secondary-border">My Projects and showcased Work.</h2>
           </div>
   
           <div className="job">

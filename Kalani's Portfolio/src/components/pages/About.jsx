@@ -2,7 +2,8 @@ import React from "react";
 import profileImage from '../../assets/kalaniHeadshot.jpg';
 function About() {
     return (
-<section id="about-me" className="my-5 intro">
+      <section id="about-me" className="my-5 intro">
+      <h2>Welcome!</h2>
       <div className="flex-row">
         <h1 id="about" className="section-title primary-border">
           About Me

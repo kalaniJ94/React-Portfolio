@@ -8,9 +8,9 @@ import Col from 'react-bootstrap/Col';
 
 function Footer() {
   return (
-    <Container >
+    <Container id='foot-container'>
       <h2>Made by Kalani Jones</h2>
-      <Row>
+      <Row id='footer-row'>
             <Col className="logo">
           <a href="https://github.com/kalaniJ94">
               <VscGithubAlt />

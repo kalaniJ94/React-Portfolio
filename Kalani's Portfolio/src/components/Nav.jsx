@@ -1,7 +1,16 @@
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+
 function Nav({ currentPage, handlePageChange}){
 
     return(
-        <ul className="nav nav-tabs">
+    <Container>
+        <Row id='nav-row'>
+
+        
+        <Col>
             <li className="nav-item">
                 <a href="#About"
                 onClick={() => handlePageChange('About')}
@@ -10,6 +19,8 @@ function Nav({ currentPage, handlePageChange}){
                     About Me
                 </a>
             </li>
+            </Col>
+            <Col>
             <li className="nav-item">
                 <a href="#Contact"
                 onClick={() => handlePageChange('Contact')}
@@ -18,6 +29,8 @@ function Nav({ currentPage, handlePageChange}){
                     Contact Me
                 </a>
             </li>
+            </Col>
+            <Col>
             <li className="nav-item">
                 <a href="#Projects"
                 onClick={() => handlePageChange('Projects')}
@@ -26,6 +39,8 @@ function Nav({ currentPage, handlePageChange}){
                     My Projects
                 </a>
             </li>
+            </Col>
+            <Col>
             <li className="nav-item">
                 <a href="#Resume"
                 onClick={() => handlePageChange('Resume')}
@@ -35,7 +50,11 @@ function Nav({ currentPage, handlePageChange}){
 
                 </a>
             </li>
-        </ul>
+            </Col>
+        
+                    
+                    </Row>
+                    </Container>
         );
     }
     export default Nav;
