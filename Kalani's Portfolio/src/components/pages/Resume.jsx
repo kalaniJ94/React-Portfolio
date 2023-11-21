@@ -1,5 +1,5 @@
 import React from 'react';
-import myResume from "../../assets/myResume.pdf";
+import myResume from "../../../public/assets/myResume.pdf";
 import { BsCloudDownload } from "react-icons/bs";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

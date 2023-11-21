@@ -2,15 +2,12 @@ import React from "react";
 
 import Dropdown from 'react-bootstrap/Dropdown';
 
-import placeholder from '../../assets/placeholder.jpg';
-import  projectMars  from "../../assets/projectMars.png";
-import projectHyperdrive from "../../assets/projectHyperdrive.png";
-import space from "../../assets/space.jpg";
-import lambeauField from "../../assets/lambeauField.jpg";
-import kdsImage from "../../assets/kdsImage.jpg";
-import codingStockImage from "../../assets/codingStockImage.avif";
-
-
+import  projectMars  from "../../../public/assets/projectMars.png";
+import projectHyperdrive from "../../../public/assets/projectHyperdrive.png";
+import space from "../../../public/assets/space.jpg";
+import lambeauField from "../../../public/assets/lambeauField.jpg";
+import kdsImage from "../../../public/assets/kdsImage.jpg";
+import codingStockImage from "../../../public/assets/codingStockImage.avif";
 
 function Projects() {
     return (
