@@ -4,7 +4,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 
 import  projectMars  from "../../../public/assets/projectMars.png";
 import projectHyperdrive from "../../../public/assets/projectHyperdrive.png";
-import space from "../../../public/assets/space.jpg";
+import celestial from "../../../public/assets/celestial.jpg";
 import lambeauField from "../../../public/assets/lambeauField.jpg";
 import kdsImage from "../../../public/assets/kdsImage.jpg";
 import codingStockImage from "../../../public/assets/codingStockImage.avif";
@@ -64,20 +64,20 @@ function Projects() {
           <div className="job">
             <div className="job-info">
               <div className="job-img">
-                <a href="https://github.com/kalaniJ94/Celestrial_Voyages">
+                <a href="https://celestialvoyages-284k.onrender.com/">
                   {" "}
                   <img
-                    src={space}
+                    src={celestial}
                     className="my-2"
                     style={{ width: "75%" }}
-                    alt="Space"
+                    alt="Celestial"
                   />
                 </a>
               </div>
               <div className="job-text">
-                <h4>Celestrial Voyages - WIP</h4>
+                <h4>Celestial Voyages - WIP</h4>
                 <p>
-                 My upcoming third and final Bootcamp Project, Celestrial Voyages aims to be a fully functioning mock "travel agency" concept, while still delivering on the space concept that y partners and I have stuck with thoughout our Bootcamp experience. I look forward to delivering again on the high expectations we have of ourselves to deliver a polished and fun experience for users. 
+                 Our third project, Celestial Voyages, combines a clean, professional UI with a mock "space travel agency" function.  It was extremely satisfying  to work with a full MERn stack to complete my bootcamp journey. 
                 </p>
               </div>
             </div>
@@ -176,6 +176,7 @@ function Projects() {
         <Dropdown.Item href="https://gist.github.com/kalaniJ94/283fba2e355e2fe7356dbf53eae22035">Computer Science</Dropdown.Item>
         <Dropdown.Item href="https://github.com/kalaniJ94/Text-Editor">Progressive Web Applications</Dropdown.Item>
         <Dropdown.Item href="https://github.com/kalaniJ94/React-Portfolio">React</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/kalaniJ94/Book_Search_Engine">MERN STack</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
               </div>
