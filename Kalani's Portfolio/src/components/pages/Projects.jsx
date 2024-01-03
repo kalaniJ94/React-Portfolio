@@ -77,7 +77,7 @@ function Projects() {
               <div className="job-text">
                 <h4>Celestial Voyages - WIP</h4>
                 <p>
-                 Our third project, Celestial Voyages, combines a clean, professional UI with a mock "space travel agency" function.  It was extremely satisfying  to work with a full MERn stack to complete my bootcamp journey. 
+                 Our third project, Celestial Voyages, combines a clean, professional UI with a mock "space travel agency" function.  It was extremely satisfying  to work with a full MERN stack to complete my bootcamp journey. 
                 </p>
               </div>
             </div>
@@ -145,7 +145,7 @@ function Projects() {
               <div className="job-text">
                 <h4>Coding Bootcamp Challenges</h4>
                 <p>
-                 During my time in coding bootcamp, we had the opprotunity to work on weekly "challenges" that tested and grew our skills. Please feel free to look through my code in these areas, covering everything from basic HTML and CSS, to MERN stacks and mySQL! 
+                 During my time in coding bootcamp, we had the opportunity to work on weekly "challenges" that tested and grew our skills. Please feel free to look through my code in these areas, covering everything from basic HTML and CSS, to MERN stacks and mySQL! 
                 </p>
                 <Dropdown>
       <Dropdown.Toggle 
@@ -176,7 +176,7 @@ function Projects() {
         <Dropdown.Item href="https://gist.github.com/kalaniJ94/283fba2e355e2fe7356dbf53eae22035">Computer Science</Dropdown.Item>
         <Dropdown.Item href="https://github.com/kalaniJ94/Text-Editor">Progressive Web Applications</Dropdown.Item>
         <Dropdown.Item href="https://github.com/kalaniJ94/React-Portfolio">React</Dropdown.Item>
-        <Dropdown.Item href="https://github.com/kalaniJ94/Book_Search_Engine">MERN STack</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/kalaniJ94/Book_Search_Engine">MERN Stack</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
               </div>

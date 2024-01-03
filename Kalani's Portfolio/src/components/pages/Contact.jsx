@@ -7,9 +7,9 @@ function Contact(){
   
   return (
   
-    <Form id='form'>
+    <Form id='contact-form'>
     <Form.Group id='form-group' className="mb-" controlId="formBasicEmail">
-      <Form.Label id='form-label'>Email address</Form.Label>
+      <Form.Label id='form-label'>Your Email address</Form.Label>
       <Form.Control id='form-control' type="email" placeholder="Enter email" />
       <Form.Text className="text-muted">
       </Form.Text>
